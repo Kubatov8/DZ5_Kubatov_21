@@ -1,0 +1,40 @@
+.parent {
+    width: 400px;
+    height: 400px;
+    margin: 200px auto;
+    border-radius: 15px;
+    background-color: gray;
+  }
+  .child_1 {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .btn_child_time {
+    width: 70px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+  }
+  .child_2 {
+    margin: 200px auto 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .btn_child_1,
+  .btn_child_2, .btn_child_3 {
+    width: 70px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .btn_child_1:hover,
+  .btn_child_2:hover, .btn_child_3 {
+    transform: scale(1.1);
+    font-size: 16px;
+  }
